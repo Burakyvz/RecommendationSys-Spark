@@ -9,6 +9,7 @@ This project provides a PySpark-based solution for finding movie recommendations
 - **Filtering of Low-Rated Movies**: Filters out movies with low average ratings to ensure recommendations are of high quality.
 - **Optimized Performance**: Leverages Apache Spark's distributed computing capabilities for efficient data processing.
 
+
 ## Example Output
 
 When you run the script, you'll be prompted to enter a movie ID. Based on the input movie ID, the script computes and displays the top 10 similar movies, their similarity scores, and the number of co-occurrences (strength).
@@ -29,12 +30,3 @@ Godfather: Part II, The (1974) score: 0.98 strength: 115
 Rear Window (1954)          score: 0.98    strength: 104
 Glory (1989)                score: 0.98    strength: 74
 North by Northwest (1959)   score: 0.98    strength: 91
-
-## Project Structure
-movie-similarity-pyspark/
-│
-├── ml-100k/                       # Directory containing MovieLens dataset files
-│   ├── u.item                     # Movie names file
-│   └── u.data                     # Movie ratings file
-├── movie_similarity.py            # Main script to run the movie similarity algorithm
-└── README.md                      # Project documentation
